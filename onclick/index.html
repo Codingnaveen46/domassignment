@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="gallery">
+    <img src="image1.jpg" onmouseover="showImage('image1.jpg')" onmouseout="hideImage()" onclick="openImage('image1.jpg')">
+    <img src="image2.jpg" onmouseover="showImage('image2.jpg')" onmouseout="hideImage()" onclick="openImage('image2.jpg')">
+    <img src="image3.jpg" onmouseover="showImage('image3.jpg')" onmouseout="hideImage()" onclick="openImage('image3.jpg')">
+  </div>
+  <div class="larger-image-container">
+    <img id="larger-image">
+  </div>
+  
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
